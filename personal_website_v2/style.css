@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white; /* Add white text color for better visibility on black background */
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile img {
+    width: 350px;
+    height: 350px;
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+.about, .interests {
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about ul, .interests ul {
+    margin: 0;
+    padding-left: 1em; 
+    list-style-position: inside; 
+}
+
+.about li, .interests li {
+    color: blue;
+    line-height: 2;
+    font-weight: bold;
+}
