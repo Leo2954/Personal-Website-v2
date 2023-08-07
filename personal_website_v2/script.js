@@ -4,4 +4,5 @@ for(let i=0; i<profiles.length; i++) {
     img.style.width = "300px";
     img.style.height = "300px";
     img.style.border = "7px dashed blue";
+    img.style.borderRadius = "20px";
 }

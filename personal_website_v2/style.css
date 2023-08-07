@@ -47,15 +47,3 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-
-.about ul, .interests ul {
-    margin: 0;
-    padding-left: 1em; 
-    list-style-position: inside; 
-}
-
-.about li, .interests li {
-    color: blue;
-    line-height: 2;
-    font-weight: bold;
-}
