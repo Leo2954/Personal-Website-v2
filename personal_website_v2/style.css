@@ -8,7 +8,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-    padding: 10px 0;
+    padding: 10px;
+    font-family: Verdana;
 }
 
 #navbar a {
@@ -25,13 +26,13 @@ body {
 
 .profiles {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .profile img {
     width: 350px;
     height: 350px;
-    border: 5px solid blue;
+    border: 10px solid blue;
     margin: 20px;
 }
 
