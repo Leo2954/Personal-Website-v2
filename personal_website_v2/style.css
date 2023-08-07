@@ -7,14 +7,15 @@ body {
 #navbar {
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: blue;
     padding: 10px;
     font-family: Verdana;
+    border-radius: 50px;
 }
 
 #navbar a {
     text-decoration: none;
-    color: blue;
+    color: black;
     font-weight: bold;
 }
 
@@ -27,6 +28,7 @@ body {
 .profiles {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .profile img {
@@ -40,7 +42,7 @@ body {
     text-align: center;
     margin: 20px;
     color: blue;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .info-section {
@@ -49,9 +51,17 @@ body {
 }
 
 .about p {
-    margin-top: 0;     
+    margin-top: 5px;     
+    color: black;
+    margin-bottom: 5px;
 }
 
 .about h2 {
     margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.about-box {
+    background-color: blue;
+    border-radius: 20px;
 }
