@@ -6,3 +6,6 @@ for(let i=0; i<profiles.length; i++) {
     img.style.border = "7px dashed blue";
     img.style.borderRadius = "20px";
 }
+let header = document.querySelector("h2");
+header.style.textDecoration = "underline";
+header.style.fontSize = "50px";
