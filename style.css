@@ -93,9 +93,8 @@ h1 {
     text-align: center;
 }
 
-a {
-    color: lightgray;
-    text-decoration: none; 
+body .list-box ul li a {
+    color: lightgray !important;
 }
 
 .list-box {
