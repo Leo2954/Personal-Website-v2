@@ -54,6 +54,7 @@ body {
     margin-top: 5px;     
     color: black;
     margin-bottom: 5px;
+    padding-left: 15px;
 }
 
 .about h2 {
@@ -75,6 +76,7 @@ body {
 
 p {
     font-size: 25px;
+    text-align: left;
 }
 h1 {
     font-size: 45px;
