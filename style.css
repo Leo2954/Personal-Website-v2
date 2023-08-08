@@ -93,9 +93,10 @@ h1 {
     text-align: center;
 }
 
-body .list-box ul li a {
-    color: lightgray !important;
+.list-box a {
+    color: lightgray;
 }
+
 
 .list-box {
     display: flex;
