@@ -95,8 +95,13 @@ h1 {
 
 .list-box a {
     color: lightgray;
+    font-size: 20px;
 }
 
+.list-box li {
+    color: lightgray;
+    font-size: 20px;
+}
 
 .list-box {
     display: flex;
