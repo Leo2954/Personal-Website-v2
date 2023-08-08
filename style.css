@@ -90,4 +90,17 @@ h1 {
     font-size: 45px;
     text-decoration: underline;
     color: lightgray;
+    text-align: center;
+}
+
+li {
+    color:lightgray;
+    font-size: 20px;
+}
+
+.list-box {
+background-color: darkblue;
+   padding: 40px;
+   border-radius: 20px;
+   border: 10px solid lightgray;
 }
