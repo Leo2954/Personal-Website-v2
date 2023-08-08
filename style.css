@@ -93,12 +93,15 @@ h1 {
     text-align: center;
 }
 
-li {
-    color:lightgray;
-    font-size: 20px;
+a {
+    color: lightgray;
+    text-decoration: none; 
 }
 
 .list-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
    background-color: darkblue;
    padding: 40px;
    border-radius: 20px;
