@@ -117,3 +117,10 @@ h1 {
     color: lightgray;
     text-align: center;
 }
+
+.article-box {
+    background-color: darkblue;
+   padding: 40px;
+   border-radius: 20px;
+   border: 10px solid lightgray;
+}
