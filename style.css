@@ -116,6 +116,7 @@ h1 {
 .article-box h2 {
     color: lightgray;
     text-align: center;
+    font-size: 50px;
 }
 
 .article-box {
